@@ -35,7 +35,7 @@ make api
 make web
 ```
 
-Open [http://localhost:5173](http://localhost:5173). The Vite dev server proxies `/api` and `/metrics` to port `8080`.
+Open [http://localhost:5173](http://localhost:5173). The Vite dev server proxies `/api` and `/metrics` to the API on port **`8081` by default** (many Macs already use `8080` for Java/IDE tools). Override with `AETHEROPS_API_PORT` in both terminals if needed.
 
 ## Presentation moments
 
